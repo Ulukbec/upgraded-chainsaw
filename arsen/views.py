@@ -5,3 +5,9 @@ from django.shortcuts import render, HttpResponse
 
 def product_view(request):
     return HttpResponse(request, "Hello world !!")
+
+
+
+
+def product(request):
+    return HttpResponse(request, "huuui")
