@@ -9,5 +9,5 @@ def product_view(request):
 
 
 
-def products(request):
+def prodsucts(request):
     return HttpResponse(request, "huuui")
